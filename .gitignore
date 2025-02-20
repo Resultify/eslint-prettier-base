@@ -1,0 +1,11 @@
+node_modules
+.env
+.env*
+.idea
+.tmp
+temp
+.DS_Store
+npm-debug.log_
+*.sublime-*
+validation-status.json
+.cache

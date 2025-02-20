@@ -1,0 +1,29 @@
+{
+  "name": "eslint-prettier-base",
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "prepare": "husky",
+    "prettierCheck": "prettier . --check",
+    "eslint": "eslint .",
+    "tsCheck": "tsc --noEmit",
+    "test": "bun prettierCheck && bun eslint && bun tsCheck"
+  },
+  "devDependencies": {
+    "eslint": "^9.19.0",
+    "eslint-config-prettier": "^10.0.1",
+    "eslint-plugin-jsx-a11y": "^6.10.2",
+    "eslint-plugin-react": "^7.37.4",
+    "eslint-plugin-react-hooks": "^5.1.0",
+    "globals": "^15.14.0",
+    "husky": "^9.1.7",
+    "prettier": "^3.4.2",
+    "prettier-plugin-tailwindcss": "^0.6.11",
+    "typescript-eslint": "^8.22.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+  }
+}
