@@ -22,7 +22,7 @@
     // Some stricter flags
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noPropertyAccessFromIndexSignature": true
+    "noPropertyAccessFromIndexSignature": false
   },
-  "exclude": ["vendor", "temp", "node_modules"]
+  "exclude": [".tmp", "temp", "node_modules"]
 }
